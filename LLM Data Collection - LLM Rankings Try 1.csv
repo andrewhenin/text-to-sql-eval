@@ -1,0 +1,13 @@
+LLM,Database Schema Type,Average Exact Match (%),Average Semantic Accuracy (%),Query Validity (%),Average Runtime,Rows Count,Notes
+Meta Llama 3.1 405B,Normal Format,100,100,100,149,15,
+OpenAI GPT-4o,Normal Format,100,100,100,193.4,15,
+Google Gemini 1.5 Flash,Normal Format,100,100,100,74.2,15,
+Claude 3.5 Sonnet,Normal Format,100,100,100,143.2,15,
+Mistral Large 2,Normal Format,100,100,100,109.8,15,
+Cohere Command R+,Normal Format,100,100,100,127,15,
+Meta Llama 3.1 405B,Star Schema,100,100,100,144,15,
+OpenAI GPT-4o,Star Schema,100,100,100,175.8,15,
+Google Gemini 1.5 Flash,Star Schema,100,100,100,169.8,15,
+Claude 3.5 Sonnet,Star Schema,100,100,100,164.6,15,
+Mistral Large 2,Star Schema,100,100,100,134,15,
+Cohere Command R+,Star Schema,100,100,20,141,15,
