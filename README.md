@@ -1,6 +1,6 @@
 # Text-to-SQL Evaluation: Flat (1NF‑compliant) vs Star Schema — Data & Results
 
-Reproducibility package for **“Evaluating Large Language Models for text‑to‑SQL tasks: Comparing First Normal Form and Star Schema.”** (DOI: [10.1109/CogInfoCom66819.2025.11200921](https://ieeexplore.ieee.org/document/11200921/metrics#metrics:~:text=10.1109/CogInfoCom66819.2025.11200921)
+Reproducibility package for **“Evaluating Large Language Models for text‑to‑SQL tasks: Comparing First Normal Form and Star Schema.”** (DOI: [10.1109/CogInfoCom66819.2025.11200921](https://ieeexplore.ieee.org/document/11200921/metrics#metrics:~:text=10.1109/CogInfoCom66819.2025.11200921))
 
 This repository hosts the **experiment CSVs** and **metadata** used to evaluate multiple LLMs on a business query across two database designs:
 
