@@ -1,12 +1,11 @@
 # Text-to-SQL Evaluation: Flat (1NF‑compliant) vs Star Schema — Data & Results
 
-Reproducibility package for **“Evaluating Large Language Models for text‑to‑SQL tasks: Comparing First Normal Form and Star Schema.”**  
+Reproducibility package for **“Evaluating Large Language Models for text‑to‑SQL tasks: Comparing First Normal Form and Star Schema.”** (DOI: [10.1109/CogInfoCom66819.2025.11200921](https://ieeexplore.ieee.org/document/11200921/metrics#metrics:~:text=10.1109/CogInfoCom66819.2025.11200921)
+
 This repository hosts the **experiment CSVs** and **metadata** used to evaluate multiple LLMs on a business query across two database designs:
 
 - **Flat (1NF‑compliant) single table**  
 - **Star schema (dimensional model)**
-
-> This repo contains only data & metadata. Analysis code is optional and provided as a helper script in `analysis/replicate_statistics.py`.
 
 ---
 
@@ -100,8 +99,24 @@ ORDER BY
 
 If you reference this repo or data, please cite the paper:
 
-> **Andrew Henin and Péter Ekler.** *Evaluating Large Language Models for text‑to‑SQL tasks: Comparing First Normal Form and Star Schema.* IEEE CogInfoCom 2025 (under review).
+### Plain Text
+>A. Henin and P. Ekler, "Evaluating Large Language Models for Text-to-SQL Tasks: Comparing First Normal Form (1NF) and Star Schema," 2025 IEEE 16th International Conference on Cognitive Infocommunications (CogInfoCom), Wien, Austria, 2025, pp. 000011-000018, doi: 10.1109/CogInfoCom66819.2025.11200921. keywords: {Bridges;Structured Query Language;Adaptation models;Runtime;Accuracy;Large language models;Semantics;Natural languages;Stars;Business intelligence;LLMs;Text-to-SQL;Business Intelligence;Star Schema;First Normal Form (1NF);Cognitive Infocommunications},
 
+
+
+### BibTex
+```bibtex
+@INPROCEEDINGS{11200921,
+  author={Henin, Andrew and Ekler, Péter},
+  booktitle={2025 IEEE 16th International Conference on Cognitive Infocommunications (CogInfoCom)}, 
+  title={Evaluating Large Language Models for Text-to-SQL Tasks: Comparing First Normal Form (1NF) and Star Schema}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={000011-000018},
+  keywords={Bridges;Structured Query Language;Adaptation models;Runtime;Accuracy;Large language models;Semantics;Natural languages;Stars;Business intelligence;LLMs;Text-to-SQL;Business Intelligence;Star Schema;First Normal Form (1NF);Cognitive Infocommunications},
+  doi={10.1109/CogInfoCom66819.2025.11200921}}
+```
 Or cite the repository:
 
 ```bibtex
